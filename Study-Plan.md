@@ -1,162 +1,125 @@
-# 🛡️ CNSP 20-Day Study Plan (Beginner-Friendly)
+# CNSP 20-Day Study Plan
 
-This is my personal 20-day plan to study for the **Certified Network Security Practitioner (CNSP)** exam by **The SecOps Group**.
+This is a realistic 20-day study plan for preparing the **Certified Network Security Practitioner (CNSP)** exam by **The SecOps Group**.
 
-Each day focuses on **one key topic** from the CNSP syllabus and includes basic theory, beginner-friendly tools, and hands-on practice.  
-Time commitment: ~2 hours/day
-
----
-
-## 📆 Daily Study Breakdown
-
-### ✅ Day 1: TCP/IP Protocols and Networking Basics
-- 🔹 Learn about how data moves across networks using TCP/IP.
-- 🛠 Tools: Wireshark – to capture and analyze packets  
-- ⏱ 1 hr: Read basics → 1 hr: Packet capture demo
+The plan is ideal for beginners and includes a daily focus on one topic from the official CNSP syllabus.  
+Time commitment: ~2 hours/day (1 hour theory + 1 hour hands-on or review).
 
 ---
 
-### ✅ Day 2: OSI Layer Model
-- 🔹 Understand how data flows through 7 network layers (from physical to application).
-- 📌 Helpful for debugging, using tools like Wireshark.
-- ⏱ 1 hr: Learn each layer + protocols → 1 hr: Layer mapping in Wireshark
+## 📌 How to Use This Plan
+
+- Dedicate ~2 hours/day to complete one topic.
+- Start with theory using blogs or official documentation.
+- Practice hands-on using free tools or platforms like TryHackMe and Wireshark.
+- At the end of each week, review what you’ve learned using the Weekly Checklist.
+- Track your daily progress using the table at the bottom.
 
 ---
 
-### ✅ Day 3: IPv4 and IPv6 Addressing
-- 🔹 Learn IP formats, CIDR, private/public IPs, and IPv6 benefits.
-- 🛠 Tools: SubnettingPractice.com for exercises  
-- ⏱ 1 hr: Theory → 1 hr: Practice subnetting
+## 🗓️ Daily Breakdown
+
+**Day 1:** TCP/IP Protocols and Networking Basics  
+**Day 2:** OSI Layer  
+**Day 3:** IPv4 and IPv6 Addressing  
+**Day 4:** Router, Switch and Hub  
+**Day 5:** Network Discovery Protocols  
+**Day 6:** Network Architecture, Mapping & Target Identification  
+**Day 7:** Network Scanning and Fingerprinting  
+**Day 8:** Testing Network Services  
+**Day 9:** Cryptography  
+**Day 10:** Active Directory Security Basics  
+**Day 11:** Linux Security Basics  
+**Day 12:** Windows Security Basics  
+**Day 13:** Common Vulnerabilities in Windows Services  
+**Day 14:** Testing Web Servers and Frameworks  
+**Day 15:** Basic Malware Analysis  
+**Day 16:** Social Engineering Attacks  
+**Day 17:** Network Security Tools and Frameworks  
+**Day 18:** Open Source Intelligence (OSINT)  
+**Day 19:** Database Security Basics  
+**Day 20:** TLS Security and Password Storage
 
 ---
 
-### ✅ Day 4: Router, Switch, and Hub
-- 🔹 Understand differences and real use-cases of each device.
-- 🛠 Tool (optional): Cisco Packet Tracer
-- ⏱ 1 hr: Reading → 1 hr: Simulate with Packet Tracer or visualize a basic LAN
+## 🛠️ Recommended Tools
+
+- Wireshark – for packet analysis  
+- Nmap / Netcat – for scanning and service enumeration  
+- TryHackMe – for guided labs and real-world practice  
+- CyberChef – for cryptography practice  
+- DVWA / OWASP Juice Shop – for web and SQL security  
+- SpiderFoot / Recon-ng – for OSINT  
+- Packet Tracer (optional) – for visualizing networks  
 
 ---
 
-### ✅ Day 5: Network Discovery Protocols (ARP, CDP, LLDP)
-- 🔹 See how devices detect each other on a network.
-- 🛠 Tools: Wireshark to observe ARP/CDP
-- ⏱ 1 hr: Study → 1 hr: Capture traffic
+## 🌐 Free Learning Resources
+
+- [GeeksforGeeks – Networking Basics](https://www.geeksforgeeks.org/computer-network-tutorials/)
+- [TryHackMe – Free Labs](https://tryhackme.com/)
+- [CyberChef – Crypto Toolkit](https://gchq.github.io/CyberChef/)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [Subnetting Practice](https://www.subnettingpractice.com/)
+- [Nmap Book](https://nmap.org/book/)
 
 ---
 
-### ✅ Day 6: Network Architecture, Mapping & Target Identification
-- 🔹 Learn how attackers and defenders map networks.
-- 🛠 Tools: `nmap`, `whois`, `nslookup`
-- ⏱ 1 hr: Passive recon theory → 1 hr: Hands-on scans
+## 🧠 Weekly Review Checklist
+
+Use this at the end of each week to self-review your progress.
+
+- [ ] Can you explain the OSI layers and map protocols to each?
+- [ ] Have you used Wireshark to analyze packets?
+- [ ] Can you perform a basic Nmap scan and interpret results?
+- [ ] Have you tried hands-on subnetting problems?
+- [ ] Do you understand basic encryption and hashing methods?
+- [ ] Have you tested simple vulnerabilities (e.g., SQLi, open ports)?
+- [ ] Are you comfortable navigating both Linux and Windows security basics?
 
 ---
 
-### ✅ Day 7: Network Scanning & Fingerprinting
-- 🔹 Learn how to detect services and OS of systems.
-- 🛠 Tools: `nmap`, `netcat`
-- ⏱ 1 hr: Concepts → 1 hr: Practical usage
+## ❓ FAQs (For Beginners)
+
+**Q:** Do I need a background in cybersecurity?  
+**A:** No. This plan is structured for beginners who want to build a solid foundation.
+
+**Q:** Do I need paid tools?  
+**A:** No. All tools used in this plan are free and open-source or offer free labs.
+
+**Q:** How important is hands-on practice?  
+**A:** Essential. Even small tasks like capturing packets or scanning ports help reinforce learning.
 
 ---
 
-### ✅ Day 8: Testing Network Services
-- 🔹 Explore how to test and interact with network services.
-- 🛠 Tools: `telnet`, `netcat`, `nmap`
-- ⏱ 1 hr: Study ports/services → 1 hr: Manual service probing
+## ✅ Progress Tracker
+
+Mark your progress below as you complete each day's topic.
+
+| Day | Topic                                | Completed |
+|-----|--------------------------------------|-----------|
+| 1   | TCP/IP Protocols and Networking      | [ ]       |
+| 2   | OSI Layer                            | [ ]       |
+| 3   | IPv4 and IPv6                        | [ ]       |
+| 4   | Router, Switch and Hub               | [ ]       |
+| 5   | Network Discovery Protocols          | [ ]       |
+| 6   | Architecture & Target Identification | [ ]       |
+| 7   | Network Scanning & Fingerprinting    | [ ]       |
+| 8   | Testing Network Services             | [ ]       |
+| 9   | Cryptography                         | [ ]       |
+| 10  | Active Directory Basics              | [ ]       |
+| 11  | Linux Security Basics                | [ ]       |
+| 12  | Windows Security Basics              | [ ]       |
+| 13  | Windows Vulnerabilities              | [ ]       |
+| 14  | Web Servers & Frameworks             | [ ]       |
+| 15  | Malware Analysis                     | [ ]       |
+| 16  | Social Engineering                   | [ ]       |
+| 17  | Network Security Tools               | [ ]       |
+| 18  | OSINT                                | [ ]       |
+| 19  | Database Security                    | [ ]       |
+| 20  | TLS & Password Storage               | [ ]       |
 
 ---
 
-### ✅ Day 9: Cryptography Basics
-- 🔹 Understand encryption, hashing, digital signatures, and SSL/TLS.
-- 🛠 Tools: CyberChef
-- ⏱ 1 hr: Crypto theory → 1 hr: Try encrypt/decrypt tasks
-
----
-
-### ✅ Day 10: Active Directory (AD) Security Basics
-- 🔹 Learn AD components: users, groups, permissions, domains.
-- 🛠 Lab: TryHackMe – Blue or AD Basics
-- ⏱ 1 hr: Learn structure → 1 hr: Hands-on lab
-
----
-
-### ✅ Day 11: Linux Security Basics
-- 🔹 Learn file permissions, firewall rules (UFW), and log auditing.
-- 🛠 Tool: Kali or Ubuntu VM
-- ⏱ 1 hr: Learn commands → 1 hr: Try in terminal
-
----
-
-### ✅ Day 12: Windows Security Basics
-- 🔹 Understand user control, Defender, and Event Viewer.
-- ⏱ 1 hr: Study Windows policies → 1 hr: Check system settings
-
----
-
-### ✅ Day 13: Common Vulnerabilities in Windows Services
-- 🔹 Learn about SMB, RDP, RPC vulnerabilities.
-- ⏱ 1 hr: Read + CVE examples → 1 hr: Test on VM (e.g., `netstat`, `services.msc`)
-
----
-
-### ✅ Day 14: Testing Web Servers and Frameworks
-- 🔹 Learn OWASP Top 10 and how to test HTTP/S vulnerabilities.
-- 🛠 Tools: `nikto`, `whatweb`
-- ⏱ 1 hr: Study web basics → 1 hr: Test your own or demo site
-
----
-
-### ✅ Day 15: Basic Malware Analysis
-- 🔹 Learn how malware works and how it’s analyzed (static/dynamic).
-- 🛠 Tools: Any.Run sandbox (online)
-- ⏱ 1 hr: Concepts → 1 hr: Upload/test samples
-
----
-
-### ✅ Day 16: Social Engineering Attacks
-- 🔹 Understand phishing, baiting, impersonation, and pretexting.
-- ⏱ 1 hr: Case studies → 1 hr: Simulate a scenario or phishing page (safely)
-
----
-
-### ✅ Day 17: Network Security Tools (Nmap, Wireshark, Netcat)
-- 🔹 Review the tools you've used so far and their CLI options.
-- ⏱ 1 hr: Command review → 1 hr: Use all three on one test network
-
----
-
-### ✅ Day 18: OSINT (Open Source Intelligence)
-- 🔹 Learn how attackers collect public info.
-- 🛠 Tools: Google Dorking, SpiderFoot, GHunt
-- ⏱ 1 hr: Learn techniques → 1 hr: Try on dummy profiles/domains
-
----
-
-### ✅ Day 19: Database Security Basics
-- 🔹 Learn SQL basics, user roles, and SQL injection.
-- 🛠 Tools: DVWA, OWASP Juice Shop
-- ⏱ 1 hr: Study SQLi → 1 hr: Demo injection
-
----
-
-### ✅ Day 20: TLS Security & Password Storage
-- 🔹 Understand how HTTPS/TLS works and how passwords are stored securely.
-- 🛠 Tools: CyberChef, Hashcat (demo only)
-- ⏱ 1 hr: Theory (salting, hashing) → 1 hr: Try viewing certs in browser or hashing tools
-
----
-
-## 🛠 Tools You’ll Use
-
-- [Wireshark](https://www.wireshark.org/)
-- [Nmap](https://nmap.org/)
-- [Netcat](https://nmap.org/ncat/)
-- [TryHackMe](https://tryhackme.com/)
-- [CyberChef](https://gchq.github.io/CyberChef/)
-- [SpiderFoot](https://www.spiderfoot.net/)
-- DVWA / OWASP Juice Shop
-- Cisco Packet Tracer (Optional)
-
----
-
-> 🧠 **Tip**: Track your progress by creating a checklist in Notion, Obsidian, or GitHub Projects.  
-> ✅ Don’t skip hands-on practice — even the basics go a long way in real scenarios.
+_This file is part of my personal study notes repo for CNSP preparation._  
+Feel free to fork or star the repo if you find it helpful.
