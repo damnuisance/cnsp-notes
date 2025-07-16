@@ -1,28 +1,24 @@
 # 🛡️ CNSP Notes – Certified Network Security Practitioner
 
-This repo contains my study notes for the **CNSP certification**, covering core topics in network security like:
+This repository contains my personal notes for the **CNSP** (Certified Network Security Practitioner) exam by The SecOps Group.
 
-- TCP/IP, OSI Model, IPv4/IPv6  
-- Network devices, scanning & services  
-- Cryptography, AD, Linux/Windows security  
-- Web testing, malware analysis, OSINT, TLS, password storage
+🧠 Topics include:
+- Networking fundamentals (TCP/IP, OSI, IPv4/IPv6)
+- Network scanning, fingerprinting, and services
+- Linux/Windows/AD security basics
+- Cryptography, TLS, OSINT, and password storage
+- Common tools like Nmap, Wireshark, Netcat
 
-📌 All notes are organized by topic in simple Markdown files.  
-📖 Ideal for revision, quick reference, and beginners prepping for CNSP.
-
----
-
-## 📚 Topics
-
-Each file = one topic  
-➡️ [01_TCP_IP_Protocols.md](01_TCP_IP_Protocols.md)  
-➡️ [02_OSI_Layers.md](02_OSI_Layers.md)  
-➡️ ...and more
+📁 Notes are written in Markdown and structured for quick revision and clarity.
 
 ---
 
-## 🙋‍♀️ About Me
+## 👩‍💻 About Me
 
-Hi! I’m **Diya Chaudhary**, a cybersecurity learner documenting my journey.  
-Feel free to fork or star ⭐ the repo!
+I’m **Diya Chaudhary**, a cybersecurity learner documenting my CNSP prep journey.
 
+🔗 [Connect on LinkedIn](https://www.linkedin.com/in/diya-chaudhary/)
+
+---
+
+> These notes are based on the official syllabus and personal research. Feel free to explore, use, or star ⭐ the repo!
