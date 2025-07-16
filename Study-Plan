@@ -1,0 +1,51 @@
+# 🗓️ CNSP 20-Day Study Plan
+
+This is my personal 20-day study plan for preparing the **Certified Network Security Practitioner (CNSP)** exam by The SecOps Group.  
+Each day is focused on a specific topic from the syllabus, blending theory and hands-on practice — with a daily commitment of around 2 hours.
+
+---
+
+## 📅 Study Schedule
+
+| Day | Topic | Plan |
+|-----|-------|------|
+| **Day 1** | TCP/IP (Protocols and Networking Basics) | 1 hr reading basics + 1 hr Wireshark packet capture |
+| **Day 2** | OSI Layer | 1 hr video/notes + 1 hr protocol-to-layer mapping |
+| **Day 3** | IPv4 and IPv6 Addresses | 1 hr IPv4/IPv6 theory + 1 hr subnetting practice |
+| **Day 4** | Router, Switch and Hub | 1 hr comparison + 1 hr design activity (Packet Tracer optional) |
+| **Day 5** | Network Discovery Protocols (ARP, CDP, LLDP) | 1 hr protocol overview + 1 hr hands-on with Wireshark |
+| **Day 6** | Network Architecture, Mapping and Target Identification | 1 hr passive recon tools + 1 hr nmap network mapping |
+| **Day 7** | Network Scanning & Fingerprinting | 1 hr concepts + 1 hr practice with `nmap`, `netcat` |
+| **Day 8** | Testing Network Services | 1 hr common service review + 1 hr testing with `telnet`, `nc` |
+| **Day 9** | Cryptography | 1 hr crypto concepts + 1 hr practice with CyberChef |
+| **Day 10** | Active Directory Security Basics | 1 hr AD theory + 1 hr lab (TryHackMe: Blue Primer or AD Basics) |
+| **Day 11** | Linux Security Basics | 1 hr Linux permissions + 1 hr hardening tasks in VM |
+| **Day 12** | Windows Security Basics | 1 hr Windows security overview + 1 hr GPO/registry lab |
+| **Day 13** | Common Vulnerabilities in Windows Services | 1 hr research + 1 hr local enumeration (services) |
+| **Day 14** | Testing Web Servers and Frameworks | 1 hr OWASP concepts + 1 hr testing with Nikto or THM |
+| **Day 15** | Basic Malware Analysis | 1 hr theory + 1 hr sandbox demo (Any.Run / TryHackMe) |
+| **Day 16** | Social Engineering Attacks | 1 hr types + 1 hr real-world case study and phishing demos |
+| **Day 17** | Network Security Tools (Nmap, Wireshark, Netcat) | 1 hr review + 1 hr command-based practicals |
+| **Day 18** | Open Source Intelligence (OSINT) | 1 hr OSINT concepts + 1 hr tools like SpiderFoot, Google Dorking |
+| **Day 19** | Database Security Basics | 1 hr DB and SQL basics + 1 hr SQLi demo (DVWA / Juice Shop) |
+| **Day 20** | TLS Security & Password Storage | 1 hr HTTPS and certs + 1 hr password hashing practice (`bcrypt`, `hashcat`) |
+
+---
+
+## 🔧 Tools & Platforms Used
+
+- [Wireshark](https://www.wireshark.org/)  
+- [Nmap](https://nmap.org/)  
+- [Netcat](https://nmap.org/ncat/)  
+- [TryHackMe](https://tryhackme.com/)  
+- [CyberChef](https://gchq.github.io/CyberChef/)  
+- [SpiderFoot](https://www.spiderfoot.net/)  
+- Packet Tracer / GNS3 (Optional for simulation)  
+- DVWA, OWASP Juice Shop (Web/DB testing)
+
+---
+
+📌 This plan is flexible — feel free to tweak it based on your pace and focus areas.  
+You can find detailed notes for each topic in this repository.
+
+> Let’s go one day at a time. Fundamentals first, everything else later. 🚀
